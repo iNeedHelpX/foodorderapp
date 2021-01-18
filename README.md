@@ -1,6 +1,7 @@
 # customerappdemo
 
 A new food order app
+<a href="https://ibb.co/FhLvjPh"><img src="https://i.ibb.co/wdFHxvd/Screen-Shot-2021-01-18-at-2-50-26-PM.png" alt="Screen-Shot-2021-01-18-at-2-50-26-PM" border="0"></a>
 
 ## Getting Started
 
