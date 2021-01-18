@@ -1,5 +1,5 @@
-import 'package:customerappdemo/helpers/bodybox.dart';
 import 'package:customerappdemo/helpers/colourconstants.dart';
+import 'package:customerappdemo/helpers/homebody.dart';
 import 'package:flutter/material.dart';
 
 class Chat extends StatefulWidget {
@@ -15,7 +15,7 @@ class _ChatState extends State<Chat> {
     return Material(
       child: Scaffold(
         backgroundColor: backgroundSlate,
-        body: Box(),
+        body: HomeBody(),
       ),
     );
   }

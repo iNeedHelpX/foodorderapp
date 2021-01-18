@@ -1,5 +1,5 @@
+import 'package:customerappdemo/helpers/bodybox.dart';
 import 'package:customerappdemo/helpers/colourconstants.dart';
-import 'package:customerappdemo/helpers/homebody.dart';
 import 'package:flutter/material.dart';
 
 class Home extends StatefulWidget {
@@ -13,7 +13,7 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: HomeBody(),
+      body: Box(),
       backgroundColor: backgroundSlate,
     );
   }

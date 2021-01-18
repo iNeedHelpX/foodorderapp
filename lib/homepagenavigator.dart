@@ -1,7 +1,7 @@
 import 'package:customerappdemo/bars/gradientbar.dart';
 import 'package:customerappdemo/helpers/colourconstants.dart';
 import 'package:customerappdemo/screens/account.dart';
-import 'package:customerappdemo/screens/chat.dart';
+import 'package:customerappdemo/screens/discover.dart';
 import 'package:customerappdemo/screens/home.dart';
 import 'package:customerappdemo/screens/orders.dart';
 import 'package:flutter/material.dart';
