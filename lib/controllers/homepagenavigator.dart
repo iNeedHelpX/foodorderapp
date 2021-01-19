@@ -6,7 +6,7 @@ import 'package:customerappdemo/screens/home.dart';
 import 'package:customerappdemo/screens/orders.dart';
 import 'package:flutter/material.dart';
 
-import 'bars/bottombar.dart';
+import '../bars/bottombar.dart';
 
 class HomePage extends StatefulWidget {
   HomePage({Key key}) : super(key: key);

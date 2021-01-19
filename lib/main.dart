@@ -1,4 +1,4 @@
-import 'package:customerappdemo/homepagenavigator.dart';
+import 'package:customerappdemo/controllers/homepagenavigator.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());

@@ -15,6 +15,6 @@ AppBar buildAppBar() {
           ])),
     ),
     leading: Icon(Icons.menu),
-    title: Text('Shopping App'),
+    title: Text('Delivery to your door'),
   );
 }

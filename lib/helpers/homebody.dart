@@ -2,6 +2,8 @@ import 'package:customerappdemo/helpers/colourconstants.dart';
 import 'package:customerappdemo/helpers/prodcard.dart';
 import 'package:flutter/material.dart';
 
+import 'colourconstants.dart';
+
 class HomeBody extends StatefulWidget {
   @override
   _HomeBodyState createState() => new _HomeBodyState();
@@ -11,10 +13,12 @@ class _HomeBodyState extends State<HomeBody> {
   List<Widget> bottomNavIconList = [
     Icon(
       Icons.favorite,
+      color: almostBlue,
       size: 32.0,
     ),
     Icon(
       Icons.shopping_bag,
+      color: goldColor,
       size: 32.0,
     ),
   ];

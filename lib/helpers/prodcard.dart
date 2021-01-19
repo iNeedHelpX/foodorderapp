@@ -1,6 +1,8 @@
 import 'package:customerappdemo/helpers/colourconstants.dart';
 import 'package:flutter/material.dart';
 
+import 'colourconstants.dart';
+
 class ProductCard extends StatelessWidget {
   int cardColor;
   String imgUrl;
@@ -46,7 +48,9 @@ class ProductCard extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
                 IconButton(
+                  disabledColor: goldColor,
                   icon: Icon(Icons.favorite),
+                  color: wildPink,
                   onPressed: () {},
                 ),
                 Column(
@@ -74,7 +78,9 @@ class ProductCard extends StatelessWidget {
                   ],
                 ),
                 IconButton(
+                  disabledColor: limeGreen,
                   icon: Icon(Icons.shopping_bag),
+                  color: almostBlue,
                   onPressed: () {},
                 )
               ],
