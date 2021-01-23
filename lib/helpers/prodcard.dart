@@ -4,11 +4,11 @@ import 'package:flutter/material.dart';
 import 'colourconstants.dart';
 
 class ProductCard extends StatelessWidget {
-  int cardColor;
-  String imgUrl;
-  String title;
-  String previousPrice;
-  String price;
+  final int cardColor;
+  final String imgUrl;
+  final String title;
+  final String previousPrice;
+  final String price;
 
   ProductCard(
       this.cardColor, this.imgUrl, this.title, this.previousPrice, this.price);

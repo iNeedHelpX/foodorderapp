@@ -20,7 +20,7 @@ class Box extends StatelessWidget {
           SizedBox(height: 120),
           Stack(
             alignment: Alignment.topCenter,
-            overflow: Overflow.visible,
+            clipBehavior: Clip.antiAliasWithSaveLayer,
             children: <Widget>[
               _buildMainCard(),
             ],
