@@ -16,8 +16,8 @@ class Box extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
-          SizedBox(height: 60),
-          SizedBox(height: 120),
+          // SizedBox(height: 60),
+          SizedBox(height: 190),
           Stack(
             alignment: Alignment.topCenter,
             clipBehavior: Clip.antiAliasWithSaveLayer,
