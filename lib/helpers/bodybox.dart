@@ -25,7 +25,7 @@ class Box extends StatelessWidget {
               _buildMainCard(),
             ],
           ),
-          SizedBox(height: 50)
+          //SizedBox(height: 50)
         ],
       ),
     );
@@ -35,22 +35,25 @@ class Box extends StatelessWidget {
 Widget _buildMainCard() {
   return SafeArea(
     bottom: true,
-    child: ClipShadow(
-      boxShadow: [BoxShadow(offset: Offset.infinite)],
-      clipper: RoundedDiagonalPathClipper(),
-      child: Container(
-        padding: EdgeInsets.all(8),
-        margin: EdgeInsets.all(9),
-        height: 470,
-        decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(42),
-          gradient: LinearGradient(
-              begin: Alignment.bottomCenter,
-              end: Alignment.topRight,
-              colors: [
-                definitelyPurple,
-                goldColor,
-              ]),
+    child: Padding(
+      padding: const EdgeInsets.all(4.0),
+      child: ClipShadow(
+        boxShadow: [BoxShadow(offset: Offset.infinite)],
+        clipper: RoundedDiagonalPathClipper(),
+        child: Container(
+          padding: EdgeInsets.all(8),
+          margin: EdgeInsets.all(9),
+          height: 470,
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(42),
+            gradient: LinearGradient(
+                begin: Alignment.bottomCenter,
+                end: Alignment.topRight,
+                colors: [
+                  definitelyPurple,
+                  goldColor,
+                ]),
+          ),
         ),
       ),
     ),
